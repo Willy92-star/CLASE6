@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+div{
+    display: flex;
+}
+
+.cajas{
+    flex-direction: row;
+    flex-wrap: wrap; /* Adapta las cajas flex para que baje a la siguiente fila de acuerdo al tamaño del dispositivo */
+    width: 100%;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.container{
+    background-color: black;
+    width: 100%;
+    height: 600px;
+}
+
+p{
+    background-color: blue;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cajas div{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    text-align: center;
+    padding: 10px;
+}
